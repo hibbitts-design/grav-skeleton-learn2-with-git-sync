@@ -1,3 +1,9 @@
+# v0.9.2
+## 04/10/2017
+
+1. [](#bugfix)
+    * Git Sync setup link fixed
+
 # v0.9.1
 ## 04/10/2017
 
