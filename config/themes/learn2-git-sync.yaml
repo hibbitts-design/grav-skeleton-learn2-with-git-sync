@@ -1,0 +1,10 @@
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      prefixes:
+        '': [user/themes/learn2-git-sync, user/themes/learn2]
+top_level_version: false
+github:
+  position: top
+  icon: github
