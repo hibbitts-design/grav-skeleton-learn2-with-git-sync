@@ -2,6 +2,7 @@
 title: Intermediate
 taxonomy:
     category: docs
+child_type: docs
 ---
 
 ### Chapter 2
