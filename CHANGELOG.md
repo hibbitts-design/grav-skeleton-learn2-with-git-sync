@@ -1,3 +1,9 @@
+# v0.9.4
+## 04/18/2017
+
+1. [](#bugfix)
+    * Fixed theme setup link to work with an inherited theme
+
 # v0.9.3
 ## 04/18/2017
 
