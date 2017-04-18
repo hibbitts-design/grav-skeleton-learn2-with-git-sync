@@ -18,7 +18,7 @@ home:
   alias: /basics
   hide_in_urls: false
 pages:
-  theme: learn2-git-sync
+  theme: mytheme
   order:
     by: default
     dir: asc

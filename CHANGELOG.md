@@ -1,6 +1,8 @@
 # v0.9.3
-## XX/XX/2017
+## 04/18/2017
 
+1. [](#new)
+    * Included inherited Learn2 with Git Sync theme for easier additional customization
 1. [](#improved)
     * Added example page type default when creating child pages
 1. [](#bugfix)
