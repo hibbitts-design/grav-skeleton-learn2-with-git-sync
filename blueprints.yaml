@@ -1,13 +1,14 @@
 name: Learn2 with Git Sync Site
-version: 0.9.4
+version: 0.9.5
 description: "Learn2 with Git Sync, a sample documentation site using the Learn2 Git Sync theme. Includes Admin Panel and Git Sync plugins."
 icon: git
 author:
- name: Hibbitts Design
- email: hello@paulhibbitts.org
+ name: Paul Hibbitts
+ email: paul@paulhibbitts.org
  url: http://hibbittsdesign.org
 homepage: https://github.com/hibbitts-design/grav-skeleton-learn2-with-git-sync
 demo: http://demo.hibbittsdesign.org/grav-learn2-git-sync/
+docs: http://learn.hibbittsdesign.org/learn2withgitsync
 keywords: learn2, gitsync
 bugs: https://github.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/issues
 license: MIT

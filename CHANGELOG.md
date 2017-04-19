@@ -1,3 +1,9 @@
+# v0.9.5
+## 04/19/2017
+
+1. [](#new)
+    * Added direct link to skeleton documentation on learn.hibbittsdesign.org
+
 # v0.9.4
 ## 04/18/2017
 
