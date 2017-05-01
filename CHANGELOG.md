@@ -1,3 +1,9 @@
+# v0.9.6
+## 05/01/2017
+
+1. [](#new)
+    * Set inherited Learn2 with Git Sync theme to sync to Git repo by default
+
 # v0.9.5
 ## 04/19/2017
 
