@@ -2,7 +2,7 @@
 ## 05/05/2017
 
 1. [](#improved)
-    * Restored default setting to not sync inherited Learn2 to Git repo by default
+    * Restored default setting to not sync inherited Learn2 theme to Git repo by default
 
 # v0.9.6
 ## 05/01/2017
