@@ -1,3 +1,9 @@
+# v1.0.0
+## 05/14/2017
+
+1. [](#new)
+    * Included example CSS in custom.css file to hide sidebar numbering
+
 # v0.9.7
 ## 05/05/2017
 
