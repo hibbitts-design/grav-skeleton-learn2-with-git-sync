@@ -1,3 +1,9 @@
+# v1.0.2
+## XX/XX/2017
+
+1. [](#improved)
+    * Changed cache default setting to false
+
 # v1.0.1
 ## 05/30/2017
 
