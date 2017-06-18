@@ -1,10 +1,10 @@
+> Detailed documentation for this project is now available at http://learn.hibbittsdesign.org/learn2withgitsync
+
 # Learn2 with Git Sync Skeleton
 
 ![Learn2 with Git Sync Screenshot](screenshot.jpg)
 
 This is a sample skeleton site that mimics the official Grav documentation: http://learn.getgrav.org.  This skeleton uses the [Learn2 Git Sync theme](https://github.com/hibbitts-design/grav-theme-learn2-git-sync), a customized version of the [Learn2 theme](https://github.com/getgrav/grav-theme-learn2).
-
-> Detailed documentation for this project is now available at http://learn.hibbittsdesign.org/learn2withgitsync
 
 # Base Learn2 Theme Features
 
