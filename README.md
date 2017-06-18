@@ -16,8 +16,6 @@ This is a sample skeleton site that mimics the official Grav documentation: http
 * Viewed page tracking
 * Integrated support for documentation content sourced/maintained via GitHub
 
->> If you want more information about using Grav with GitHub, check out [part 1](http://getgrav.org/blog/developing-with-github-part-1) and [part 2](http://getgrav.org/blog/developing-with-github-part-2) of our guide called *Grav Development with Github*.
-
 # Supported Page Templates
 
 * "Docs" template
