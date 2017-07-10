@@ -1,6 +1,9 @@
 # v1.0.2
-## XX/XX/2017
+## 07/11/2017
 
+1. [](#new)
+    * Added support for RSS feed
+    * Added Author field within Page Options
 1. [](#improved)
     * Changed cache default setting to false
 
