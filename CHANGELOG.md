@@ -1,3 +1,9 @@
+# v1.0.3
+## 07/12/2017
+
+1. [](#new)
+    * Added Author taxonomy tag (and removed previous Author field within Page Options)
+
 # v1.0.2
 ## 07/11/2017
 
