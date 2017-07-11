@@ -5,6 +5,6 @@ author:
   email: john@email.com
 taxonomies: [category,tag,author]
 metadata:
-  description: 'Learn2 Site'
+  description: 'Learn2 with Git Sync'
 summary:
   size: 300
