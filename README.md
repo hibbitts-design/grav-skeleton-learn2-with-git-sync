@@ -6,6 +6,18 @@
 
 This is a sample skeleton site that mimics the official Grav documentation: http://learn.getgrav.org.  This skeleton uses the [Learn2 Git Sync theme](https://github.com/hibbitts-design/grav-theme-learn2-git-sync), a customized version of the [Learn2 theme](https://github.com/getgrav/grav-theme-learn2).
 
+# Learn2 Theme with Git Sync Features
+* Integrated support for Git Sync (i.e. view/edit pages in GitHub)
+* Support for RSS feed (great for getting documentation updates)
+
+* Lightweight and minimal for optimal performance
+* Fully responsive with off-page mobile navigation
+* SCSS based CSS source files for easy customization
+* Built specifically for providing easy to read documentation
+* [Font Awesome](http://fontawesome.io/) icon support
+* Viewed page tracking
+* Integrated support for documentation content sourced/maintained via GitHub
+
 # Base Learn2 Theme Features
 
 * Lightweight and minimal for optimal performance
