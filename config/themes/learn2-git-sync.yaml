@@ -2,6 +2,7 @@ enabled: true
 top_level_version: false
 github:
   position: top
+  icon: github
 streams:
   schemes:
     theme:
