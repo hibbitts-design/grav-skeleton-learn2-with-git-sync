@@ -1,3 +1,9 @@
+# v1.0.6
+## 01/14/2018
+
+1. [](#improved)
+    * Changed default size of site title to h5 (from h4) to reduce vertical space
+
 # v1.0.5
 ## 10/23/2017
 
