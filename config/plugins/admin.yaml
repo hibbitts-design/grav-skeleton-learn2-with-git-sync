@@ -48,8 +48,8 @@ add_modals:
     blueprint: admin/pages/new_chapter
     show_in: bar
   -
-    label: 'Add Page'
-    blueprint: admin/pages/new_page
+    label: 'Add Documentation (Docs) Page'
+    blueprint: admin/pages/new_docs_page
     show_in: bar
 hide_page_types:
   - feed
