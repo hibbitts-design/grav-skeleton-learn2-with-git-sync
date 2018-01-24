@@ -3,7 +3,7 @@ form:
   fields:
     section:
         type: section
-        title: Add Documentation (Docs) Page
+        title: Add Documentation Page
 
     title:
       type: text
