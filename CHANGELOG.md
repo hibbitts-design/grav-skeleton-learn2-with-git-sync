@@ -1,3 +1,10 @@
+# v1.0.8
+## 02/14/2018
+
+1. [](#improved)
+    * Revised Admin Panel button bar labels to "Add Chapter" and "Add Documentation Page"
+    * Included most recent Learn2 with Git Sync theme
+
 # v1.0.7
 ## 01/23/2018
 
