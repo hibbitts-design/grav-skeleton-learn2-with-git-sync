@@ -9,7 +9,6 @@ This is a sample skeleton site that mimics the official Grav documentation: http
 # Learn2 Theme with Git Sync Features
 * Integrated support for Git Sync (i.e. view/edit pages in GitHub)
 * Support for RSS feed (great for getting documentation updates)
-
 * Lightweight and minimal for optimal performance
 * Fully responsive with off-page mobile navigation
 * SCSS based CSS source files for easy customization
