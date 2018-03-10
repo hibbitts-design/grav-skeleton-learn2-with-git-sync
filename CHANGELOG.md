@@ -1,3 +1,9 @@
+# v1.0.9
+## 03/09/2018
+
+1. [](#improved)
+    * Included most recent Learn2 with Git Sync theme
+
 # v1.0.8
 ## 02/14/2018
 
