@@ -1,3 +1,9 @@
+# v1.1.0
+## 03/12/2018
+
+1. [](#improved)
+    * Includes Grav 1.41 and Admin Panel 1.71, with Font Awesome selected by default for solid icons at 1rem font size
+
 # v1.0.9
 ## 03/09/2018
 
