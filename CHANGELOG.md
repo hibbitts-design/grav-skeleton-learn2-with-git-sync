@@ -1,5 +1,5 @@
 # v1.1.1
-## XX/XX/XXXX
+## 03/16/2018
 
 1. [](#improved)
     * Changed skeleton author information to Hibbitts Design
