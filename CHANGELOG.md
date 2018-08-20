@@ -1,3 +1,9 @@
+# v1.1.3
+## 08/20/2018
+
+1. [](#new)
+    * Added experimental automatic synchronization settings for Git Sync plugin
+
 # v1.1.2
 ## 03/16/2018
 
