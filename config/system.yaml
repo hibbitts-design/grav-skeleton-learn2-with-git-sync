@@ -5,9 +5,11 @@ param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
 force_ssl: false
+force_lowercase_urls: true
 custom_base_url: ''
 username_regex: '^[a-z0-9_-]{3,16}$'
 pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
+intl_enabled: true
 languages:
   supported: {  }
   include_default_lang: true
@@ -134,6 +136,7 @@ media:
   upload_limit: 33554432
 session:
   enabled: true
+  initialize: true
   timeout: 1800
   name: grav-site
   secure: false
@@ -146,3 +149,6 @@ gpm:
   method: auto
   verify_peer: true
   official_gpm_only: true
+strict_mode:
+  yaml_compat: true
+  twig_compat: true
