@@ -1,4 +1,4 @@
-enabled: false
+enabled: true
 built_in_css: false
 built_in_js: true
 display_button: false
