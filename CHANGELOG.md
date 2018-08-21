@@ -1,3 +1,9 @@
+# v1.1.5
+## 08/21/2018
+
+1. [](#improved)
+    * Updated support for TNTSearch plugin
+
 # v1.1.4
 ## 08/20/2018
 
