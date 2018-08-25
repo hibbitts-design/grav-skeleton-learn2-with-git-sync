@@ -1,8 +1,14 @@
+# v1.1.7
+## 08/25/2018
+
+1. [](#improved)
+    * Updated skeleton description
+
 # v1.1.6
 ## 08/25/2018
 
 1. [](#improved)
-    * Updated screenshot
+    * Updated skeleton screenshot
 
 # v1.1.5
 ## 08/21/2018
