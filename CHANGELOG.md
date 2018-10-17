@@ -1,9 +1,3 @@
-# v1.1.9
-## 10/17/2018
-
-1. [](#improved)
-    * Updated skeleton screenshot
-
 # v1.1.8
 ## 10/16/2018
 
