@@ -9,3 +9,5 @@ streams:
       type: ReadOnlyStream
       prefixes:
         '': [user/themes/mytheme, user/themes/learn2-git-sync, user/themes/learn2]
+style: default
+hide_site_title: false
