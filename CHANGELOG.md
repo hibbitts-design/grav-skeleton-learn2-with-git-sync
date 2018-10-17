@@ -1,3 +1,10 @@
+# v1.1.8
+## 10/16/2018
+
+1. [](#new)
+    * Added custom styles (thanks @olevik)
+    * Added option to show or hide site title
+
 # v1.1.7
 ## 08/25/2018
 
