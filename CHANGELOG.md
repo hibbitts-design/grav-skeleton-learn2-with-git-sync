@@ -4,6 +4,8 @@
 1. [](#new)
     * Added custom styles (thanks @olevik)
     * Added option to show or hide site title
+1. [](#improved)
+    * Includes Git Sync 2.0 Plugin
 
 # v1.1.7
 ## 08/25/2018
