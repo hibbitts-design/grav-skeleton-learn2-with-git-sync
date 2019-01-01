@@ -11,7 +11,7 @@ Information and Documentation
 ---
 http://learn.hibbittsdesign.org/learn2withgitsync
 
-Grav Learn2 with Git Sync Screenshots
+Grav Learn2 with Git Sync Screenshot
 
 ![Learn2 with Git Sync Screenshot](screenshot.jpg)
 
