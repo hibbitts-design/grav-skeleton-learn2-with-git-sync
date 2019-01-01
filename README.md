@@ -1,10 +1,19 @@
-> Detailed documentation for this project is now available at http://learn.hibbittsdesign.org/learn2withgitsync
-
 # Learn2 with Git Sync Skeleton
 
-![Learn2 with Git Sync Screenshot](screenshot.jpg)
+[![Demo](https://img.shields.io/badge/Demo-OpenPublishingSpace-blue.svg?style=flat-square)](https://demo.hibbittsdesign.org/grav-learn2-git-sync/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/hibbitts-design/grav-theme-learn2-git-sync/blob/master/LICENSE)
 
-This is a sample skeleton site that mimics the official Grav documentation: http://learn.getgrav.org.  This skeleton uses the [Learn2 Git Sync theme](https://github.com/hibbitts-design/grav-theme-learn2-git-sync), a customized version of the [Learn2 theme](https://github.com/getgrav/grav-theme-learn2).
+[![Discord](https://img.shields.io/discord/501836936584101899.svg?logo=discord&colorB=728ADA&label=Discord%20Chat)](https://chat.getgrav.org)
+
+**Learn2 with Git Sync** Learn2 with Git Sync, a sample documentation site using the Learn2 Git Sync theme. Includes Admin Panel and TNTSearch Plugins along with RSS/Atom Feeds. Built with the open source modern file-based [Grav CMS](http://getgrav.org).
+
+Information and Documentation
+---
+http://learn.hibbittsdesign.org/learn2withgitsync
+
+Grav Learn2 with Git Sync Screenshots
+
+![Learn2 with Git Sync Screenshot](screenshot.jpg)
 
 # Learn2 Theme with Git Sync Features
 * Integrated support for Git Sync (i.e. view/edit pages in GitHub)
