@@ -8,7 +8,13 @@ username_regex: '^[a-z0-9_-]{3,16}$'
 pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 intl_enabled: true
 languages:
+  include_default_lang: true
   pages_fallback_only: true
+  translations: true
+  translations_fallback: true
+  session_store_active: false
+  http_accept_language: false
+  override_locale: false
 home:
   alias: /basics
   hide_in_urls: false
@@ -60,6 +66,8 @@ pages:
     - .git
     - .idea
   ignore_hidden: true
+  hide_empty_folders:
+    - '1'
   url_taxonomy_filters: true
   frontmatter:
     process_twig: false
@@ -67,13 +75,15 @@ pages:
       - form
       - forms
   markdown_extra: true
-  hide_empty_folders: true
 cache:
   enabled: false
   check:
     method: file
   driver: auto
   prefix: g
+  purge_at: '0 4 * * *'
+  clear_at: '0 3 * * *'
+  clear_job_type: standard
   clear_images_by_default: true
   cli_compatibility: false
   lifetime: 604800
@@ -104,6 +114,10 @@ assets:
 errors:
   display: 0
   log: true
+log:
+  handler: file
+  syslog:
+    facility: local6
 debugger:
   enabled: false
   shutdown:
@@ -124,6 +138,7 @@ session:
   initialize: true
   timeout: 1800
   name: grav-site
+  uniqueness: path
   secure: false
   httponly: true
   split: true
@@ -132,6 +147,9 @@ gpm:
   method: auto
   verify_peer: true
   official_gpm_only: true
+accounts:
+  type: data
+  storage: file
 strict_mode:
   yaml_compat: true
   twig_compat: true
