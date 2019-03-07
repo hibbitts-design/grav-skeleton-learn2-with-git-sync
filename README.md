@@ -76,4 +76,6 @@ The simplest way to install the Learn2 Git Sync theme with sample content for Gr
 
 **TIP:** Check out the [general Grav Installation Instructions](http://learn.getgrav.org/basics/installation) for more details on this process.
 
+Share Your Feedback
 ---
+* Complete the [Learn2 with Git Sync Survey](https://goo.gl/forms/ywKK8XqBJ5HZ0lCv2)
