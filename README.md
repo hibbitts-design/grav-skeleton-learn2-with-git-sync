@@ -43,7 +43,7 @@ Grav Learn2 with Git Sync Screenshot
 * Error view template
 
 ## Video Walkthrough of Learn2 with Git Sync Configuration
-[![Learn2 with Git Sync Configuration](https://github.com/paulhibbitts/github-repo-images/blob/master/video-learn2-git-sync-config.png?raw=true)](https://www.youtube.com/watch?v=aO3CW0yc4_Y)  
+[![Learn2 with Git Sync Configuration](https://github.com/paulhibbitts/github-repo-images/blob/master/video-learn2-git-sync-config.png?raw=true)](https://www.youtube.com/watch?v=bmQjWmwS9S8)  
 _Video 1. Learn2 with Git Sync Configuration_
 
 # Configuration
