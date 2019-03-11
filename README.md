@@ -18,7 +18,7 @@ Grav Learn2 with Git Sync Screenshot
 # Learn2 Theme with Git Sync Features
 * Integrated support for Git Sync (i.e. view/edit pages in GitHub)
 * Support for RSS feed (great for getting documentation updates)
-* Custom Theme styles
+* Custom Theme visual styles
 * Support for Taxonomy 'tag' searching with TNTSearch Plugin
 
 # Base Learn2 Theme Features
