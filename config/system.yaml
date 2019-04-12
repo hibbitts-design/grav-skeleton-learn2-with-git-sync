@@ -129,10 +129,11 @@ images:
   cache_perms: '0755'
   debug: false
   auto_fix_orientation: false
+  seofriendly: false
 media:
   enable_media_timestamp: false
   auto_metadata_exif: false
-  upload_limit: 33554432
+  upload_limit: 8388608
 session:
   enabled: true
   initialize: true
@@ -143,7 +144,7 @@ session:
   httponly: true
   split: true
 gpm:
-  releases: stable
+  releases: testing
   method: auto
   verify_peer: true
   official_gpm_only: true
