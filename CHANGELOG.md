@@ -1,3 +1,12 @@
+# v1.5.0
+## 04/11/2019
+
+1. [](#new)
+    * Added initial support for document versioning using Grav's multi-language feature (thanks @rhuk)
+    * Added taxonomy 'tag' to default TNTSearch index
+    * Additional support for the Presentation Plugin (thanks @OleVik)
+    * Updated default demo pages
+
 # v1.2.0
 ## 11/23/2018
 
