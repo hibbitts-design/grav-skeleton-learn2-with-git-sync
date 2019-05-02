@@ -20,6 +20,7 @@ Grav Learn2 with Git Sync Screenshot
 * Support for RSS feed (great for getting documentation updates)
 * Custom Theme visual styles
 * Support for Taxonomy 'tag' searching with TNTSearch Plugin
+* Enhanced support for the [Presentation Plugin](https://github.com/OleVik/grav-plugin-presentation)
 
 # Base Learn2 Theme Features
 
