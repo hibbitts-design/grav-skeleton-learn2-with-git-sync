@@ -5,4 +5,4 @@ taxonomy:
 ---
 
 Example Embedded Presentation  
-[presentation="presentations/placeholder-slide"]
+[presentation="presentations/placeholder-slides"]
