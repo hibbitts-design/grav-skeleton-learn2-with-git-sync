@@ -7,16 +7,16 @@
 
 **Learn2 with Git Sync** Learn2 with Git Sync, a sample documentation site using the Learn2 Git Sync theme. Includes Admin Panel and TNTSearch Plugins along with RSS/Atom Feeds. Built with the open source modern file-based [Grav CMS](http://getgrav.org).
 
-📚Information and Documentation
+📚 Information and Documentation
 ---
 http://learn.hibbittsdesign.org/learn2withgitsync
 
-💻Grav Learn2 with Git Sync Screenshot
+💻 Grav Learn2 with Git Sync Screenshot
 ---
 
 ![Learn2 with Git Sync Screenshot](https://github.com/paulhibbitts/github-repo-images/blob/master/smartmockups_learn2_with_git_sync.png?raw=true)
 
-✅Learn2 Theme with Git Sync Features
+✅ Learn2 Theme with Git Sync Features
 ---
 
 * Integrated support for Git Sync (i.e. view/edit pages in GitHub)
@@ -35,7 +35,7 @@ http://learn.hibbittsdesign.org/learn2withgitsync
 * Viewed page tracking
 * Integrated support for documentation content sourced/maintained via GitHub
 
-📄Supported Page Templates
+📄 Supported Page Templates
 ---
 
 * "Docs" template
@@ -46,7 +46,7 @@ http://learn.hibbittsdesign.org/learn2withgitsync
 [![Learn2 with Git Sync Configuration](https://github.com/paulhibbitts/github-repo-images/blob/master/video-learn2-git-sync-config.png?raw=true)](https://www.youtube.com/watch?v=bmQjWmwS9S8)  
 _Video 1. Learn2 with Git Sync Configuration_
 
-🔧Configuration
+🔧 Configuration
 ---
 
 ```
@@ -77,6 +77,6 @@ The simplest way to install the Learn2 Git Sync theme with sample content for Gr
 
 **TIP:** Check out the [general Grav Installation Instructions](http://learn.getgrav.org/basics/installation) for more details on this process.
 
-💬Share Your Feedback
+💬 Share Your Feedback
 ---
 * Complete the [Learn2 with Git Sync Survey](https://goo.gl/forms/ywKK8XqBJ5HZ0lCv2)
