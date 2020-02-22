@@ -16,7 +16,7 @@ http://learn.hibbittsdesign.org/learn2withgitsync
 
 ![Learn2 with Git Sync Screenshot](https://github.com/paulhibbitts/github-repo-images/blob/master/smartmockups_learn2_with_git_sync.png?raw=true)
 
-Learn2 Theme with Git Sync Features
+✅Learn2 Theme with Git Sync Features
 ---
 
 * Integrated support for Git Sync (i.e. view/edit pages in GitHub)
