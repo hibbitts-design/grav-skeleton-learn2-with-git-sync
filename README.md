@@ -11,7 +11,8 @@
 ---
 http://learn.hibbittsdesign.org/learn2withgitsync
 
-Grav Learn2 with Git Sync Screenshot
+---
+💻Grav Learn2 with Git Sync Screenshot
 
 ![Learn2 with Git Sync Screenshot](https://github.com/paulhibbitts/github-repo-images/blob/master/smartmockups_learn2_with_git_sync.png?raw=true)
 
