@@ -7,11 +7,11 @@
 
 **Learn2 with Git Sync** Learn2 with Git Sync, a sample documentation site using the Learn2 Git Sync theme. Includes Admin Panel and TNTSearch Plugins along with RSS/Atom Feeds. Built with the open source modern file-based [Grav CMS](http://getgrav.org).
 
-Information and Documentation
+⚡️Information and Documentation
 ---
 http://learn.hibbittsdesign.org/learn2withgitsync
 
-Grav Learn2 with Git Sync Screenshot
+💻Grav Learn2 with Git Sync Screenshot
 
 ![Learn2 with Git Sync Screenshot](https://github.com/paulhibbitts/github-repo-images/blob/master/smartmockups_learn2_with_git_sync.png?raw=true)
 
