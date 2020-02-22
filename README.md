@@ -35,7 +35,7 @@ Learn2 Theme with Git Sync Features
 * Viewed page tracking
 * Integrated support for documentation content sourced/maintained via GitHub
 
-Supported Page Templates
+📄Supported Page Templates
 ---
 
 * "Docs" template
