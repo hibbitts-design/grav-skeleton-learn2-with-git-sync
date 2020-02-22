@@ -11,18 +11,18 @@
 ---
 http://learn.hibbittsdesign.org/learn2withgitsync
 
-💻Grav Learn2 with Git Sync Screenshot
+Grav Learn2 with Git Sync Screenshot
 
 ![Learn2 with Git Sync Screenshot](https://github.com/paulhibbitts/github-repo-images/blob/master/smartmockups_learn2_with_git_sync.png?raw=true)
 
-# Learn2 Theme with Git Sync Features
+## Learn2 Theme with Git Sync Features
 * Integrated support for Git Sync (i.e. view/edit pages in GitHub)
 * Support for RSS feed (great for getting documentation updates)
 * Custom Theme visual styles
 * Support for Taxonomy 'tag' searching with TNTSearch Plugin
 * Enhanced support for the [Presentation Plugin](https://github.com/OleVik/grav-plugin-presentation)
 
-# Base Learn2 Theme Features
+### Base Learn2 Theme Features
 
 * Lightweight and minimal for optimal performance
 * Fully responsive with off-page mobile navigation
@@ -32,17 +32,17 @@ http://learn.hibbittsdesign.org/learn2withgitsync
 * Viewed page tracking
 * Integrated support for documentation content sourced/maintained via GitHub
 
-# Supported Page Templates
+## Supported Page Templates
 
 * "Docs" template
 * "Chapter" template
 * Error view template
 
-## Video Walkthrough of Learn2 with Git Sync Configuration
+### Video Walkthrough of Learn2 with Git Sync Configuration
 [![Learn2 with Git Sync Configuration](https://github.com/paulhibbitts/github-repo-images/blob/master/video-learn2-git-sync-config.png?raw=true)](https://www.youtube.com/watch?v=bmQjWmwS9S8)  
 _Video 1. Learn2 with Git Sync Configuration_
 
-# Configuration
+## Configuration
 
 ```
 top_level_version: false
@@ -61,7 +61,7 @@ github:
 | github            | position      | Sets the position for the GitHub edit link. Can be set to `top` or `bottom`.                                           |
 | github            | tree          | Sets the tree by which your site's content is based. Generally the repo your site's content is pulled from.            |
 
-## Basic Setup for a New Grav Site
+### Basic Setup for a New Grav Site
 
 The simplest way to install the Learn2 Git Sync theme with sample content for Grav is to download and install the Learn2 with Git Sync Skeleton package:
 
