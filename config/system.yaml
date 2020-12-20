@@ -66,8 +66,7 @@ pages:
     - .git
     - .idea
   ignore_hidden: true
-  hide_empty_folders:
-    - '1'
+  hide_empty_folders: false
   url_taxonomy_filters: true
   frontmatter:
     process_twig: false
