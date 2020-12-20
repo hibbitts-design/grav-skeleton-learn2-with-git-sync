@@ -1,3 +1,9 @@
+# v1.5.6
+## 12/20/2020
+
+1. [](#bugfix)
+    * Fix for possible server error when updating
+
 # v1.5.5
 ## 07/03/2020
 
