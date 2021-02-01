@@ -52,9 +52,5 @@ add_modals:
     label: 'Add Documentation Page'
     blueprint: admin/pages/new_docs_page
     show_in: bar
-  -
-    label: 'Add Presentation'
-    blueprint: admin/pages/new_presentation
-    show_in: dropdown
 hide_page_types:
   - feed
