@@ -1,3 +1,10 @@
+# v1.5.8
+## 01/31/2021
+
+1. [](#improved)
+    * Updated Admin Panel blueprints for Grav 1.7
+    * Updated Admin Panel bar dropdown menu items
+
 # v1.5.7
 ## 01/20/2021
 
