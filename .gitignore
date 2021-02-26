@@ -6,8 +6,10 @@ data/*
 !data/.*
 plugins/*
 !plugins/.*
-themes/*
-!themes/.*
+!customadmin
+!themes/learn2/.*
+themes/learn2/*
+learn2-git-sync
 localhost/*
 !localhost/.*
 
