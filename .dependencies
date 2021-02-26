@@ -11,6 +11,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-auto-date
         path: user/plugins/auto-date
         branch: master
+    breadcrumbs:
+        url: https://github.com/getgrav/grav-plugin-breadcrumbs
+        path: user/plugins/breadcrumbs
+        branch: master
     email:
         url: https://github.com/getgrav/grav-plugin-email
         path: user/plugins/email
