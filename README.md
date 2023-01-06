@@ -9,7 +9,24 @@
 
 📚 Information and Documentation
 ---
-http://learn.hibbittsdesign.org/learn2withgitsync
+https://learn.hibbittsdesign.org/learn2withgitsync
+
+
+🚀 Quick Install Instructions
+---
+**Pre-flight Checklist**  
+
+1. Confirm Web server PHP version (PHP 8.0.2 or higher)
+2. Web server login credentials (username and password)
+
+**Installation Steps**  
+
+1. Download the ready-to-run [Learn2 with Git Sync Skeleton Package](https://github.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/releases/latest/download/grav-skeleton-learn2-with-git-sync.zip)
+2. Unzip the package onto your desktop  
+3. Copy the entire expanded folder to your Web server  
+4. Point your browser to the Web server folder  
+5. Create your site administrator account when prompted  
+6. And you're done! (press the ![Right Arrow Circle Icon](https://github.com/paulhibbitts/github-repo-images/blob/master/fa-arrow-circle-right.png?raw=true) icon in the Admin Panel to preview site)
 
 💻 Grav Learn2 with Git Sync Screenshot
 ---
