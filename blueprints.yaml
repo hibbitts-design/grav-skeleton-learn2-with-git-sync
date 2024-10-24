@@ -1,6 +1,6 @@
 name: Learn2 with Git Sync Site
 version: 1.6.8
-description: "Learn2 with Git Sync, a sample documentation site using a customized version of the Learn2 Git Sync theme. Includes Admin Panel and TNTSearch plugins along with RSS/Atom Feeds."
+description: "Learn2 with Git Sync, a sample documentation site using a customized version of the Learn2 theme. Includes Admin Panel and TNTSearch plugins along with RSS/Atom Feeds."
 icon: git
 author:
  name: HibbittsDesign.org
