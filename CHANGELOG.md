@@ -1,8 +1,9 @@
 # v1.6.8
-## XX/XX/2024
+## 12/06/2024
 
 1. [](#improved)
     * Changed skeleton author information to HibbittsDesign.org
+    * Removed unused twigfeeds and twigpcre Plugin dependencies
 
 # v1.6.7
 ## 07/17/2024
