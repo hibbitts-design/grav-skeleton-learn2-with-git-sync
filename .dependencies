@@ -91,14 +91,6 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-tntsearch
         path: user/plugins/tntsearch
         branch: master
-    twigfeeds:
-        url: https://github.com/OleVik/grav-plugin-twigfeeds
-        path: user/plugins/twigfeeds
-        branch: master
-    twigpcre:
-        url: https://github.com/kesslernetworks/grav-plugin-twigpcre
-        path: user/plugins/twigpcre
-        branch: master
     shortcode-core:
         url: https://github.com/getgrav/grav-plugin-shortcode-core
         path: user/plugins/shortcode-core
