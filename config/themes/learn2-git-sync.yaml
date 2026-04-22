@@ -1,9 +1,13 @@
 enabled: true
 top_level_version: false
+google_analytics_code: null
+home_url: null
 github:
   position: top
+  icon: null
+  tree: null
 default_taxonomy_category: docs
-style: default
+style: theme-2026
 streams:
   schemes:
     theme:
@@ -11,3 +15,4 @@ streams:
       prefixes:
         '': [user/themes/learn2-git-sync, user/themes/learn2]
 hide_site_title: false
+enable_doc_versioning: false
