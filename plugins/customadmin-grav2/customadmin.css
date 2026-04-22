@@ -1,3 +1,5 @@
+/* CSS to increase the default font size of the Admin Panel */
+
 body {
     font-size: 1rem;
     line-height: 1.5;
@@ -6,6 +8,8 @@ body {
 form input, form select, form textarea, form button, form .selectize-input {
     font-size: 1rem;
 }
+
+/* CSS to increase default font size of Admin Panel toolbar */
 
 .grav-editor-toolbar ul {
     font-size: 1.1rem!important;
@@ -27,4 +31,10 @@ form input, form select, form textarea, form button, form .selectize-input {
 #admin-main .titlebar .button-bar .button.danger:hover {
     background: #26a1df;
     color: #fff;
+}
+
+/* Admin 2.0 (SvelteKit/Tailwind) — zoom scales hardcoded px values */
+body:has([data-theme="grav"]),
+[data-theme="grav"] body {
+    zoom: 1.1;
 }
