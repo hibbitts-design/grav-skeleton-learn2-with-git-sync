@@ -76,7 +76,8 @@ form:
       description: Custom style selection.
       default: default
       options:
-        default: Default
+        default: Classic
+        theme-2026: 2026 Refresh
         hoth: Hoth
         longyearbyen: Longyearbyen
         spitsbergen: Spitsbergen (Hoth v2)

@@ -1,3 +1,9 @@
+# v1.7.1
+## 04/22/2026
+
+1. [](#improved)
+    * Updated to Learn2 with Git Sync v2.0.0
+    
 # v1.7.0
 ## 04/22/2026
 
