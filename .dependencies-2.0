@@ -46,7 +46,7 @@ git:
     git-sync:
         url: https://github.com/trilbymedia/grav-plugin-git-sync
         path: user/plugins/git-sync
-        branch: main
+        branch: master
     grava11y:
         url: https://github.com/absalomedia/grav-plugin-grava11y
         path: user/plugins/grava11y
