@@ -1,5 +1,8 @@
 # v1.7.5
-## XX/XX/2026
+## 08/24/2026
+
+1. [](#new)
+    * Update default skeleton download to Grav 2.0
 
 1. [](#improved)
     * Add 1.7|2.0 compatibility flags to default inherited theme
