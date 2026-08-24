@@ -12,6 +12,7 @@ on:
         description: 'Create also a package with Admin'
         required: false
         default: false
+        type: boolean
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,7 +29,8 @@ jobs:
           cp .dependencies .dependencies.bak
           cp .dependencies-2.0 .dependencies
       # 1. Build latest (2.0) FIRST, using the fork (PHP 8.3) since
-      #    Grav 1.8+ requires it. Plain/unversioned filename for now.
+      #    Grav 1.8+ requires it. Plain/unversioned filename -- this
+      #    is now the default download.
       - name: Generate Skeleton Packages (latest / 2.0)
         uses: paulhibbitts/skeleton-builder@main
         with:
@@ -40,23 +42,13 @@ jobs:
       # the next build step runs.
       - name: Restore original dependencies
         run: mv .dependencies.bak .dependencies
-      # 2. Rename the 2.0 output by inserting "2-" right after the
-      #    "grav-" prefix, then move it OUT of dist/ entirely -- the
-      #    next build step needs to create dist/ fresh, and will
-      #    fail if it already exists.
-      - name: Stash renamed 2.0 build output
-        run: |
-          mkdir -p dist-2
-          cd dist
-          for f in *.zip; do
-            newname=$(echo "$f" | sed 's/^grav-/grav-2-/')
-            sudo mv "$f" "../dist-2/$newname"
-          done
-          cd ..
-          sudo rmdir dist
+      # 2. Stash the 2.0 build output as-is (plain filenames preserved)
+      #    and move it OUT of dist/ entirely -- the next build step
+      #    needs to create dist/ fresh, and will fail if it already exists.
+      - name: Stash 2.0 build output
+        run: sudo mv dist dist-2
       # 3. Build the pinned 1.7.53.2 version LAST, using the original
       #    upstream action (PHP 7.4, proven stable for this version).
-      #    Plain/unversioned filename matches your existing convention.
       - name: Generate Skeleton Packages (1.7.53.2)
         uses: getgrav/skeleton-builder@v1
         with:
@@ -64,23 +56,32 @@ jobs:
           admin: ${{ github.event.inputs.admin || false }}
           exclude: README.md *dist-2/* .dependencies-2.0
           filename_version: false
-      # 4. Upload the 2.0 (-2 prefixed) packages FIRST.
-      - name: Upload 2.0 packages to release
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ env.SKELETON_VERSION }}
-          file: dist-2/*.zip
-          overwrite: true
-          file_glob: true
-      # 5. Upload the 1.7.53.2 (plain-named) packages LAST, so it's the
-      #    most recently added asset -- this is what getgrav.org's
-      #    indexer appears to pick up automatically.
+      # 4. Rename the 1.7.53.2 output with a "-1.7" suffix so it no
+      #    longer collides with the 2.0 build's plain filename.
+      - name: Rename 1.7.53.2 build output
+        run: |
+          cd dist
+          for f in *.zip; do
+            sudo mv "$f" "$(echo "$f" | sed 's/\.zip$/-1.7.zip/')"
+          done
+      # 5. Upload the 1.7.53.2 (-1.7 suffixed) packages FIRST.
       - name: Upload 1.7.53.2 packages to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ env.SKELETON_VERSION }}
           file: dist/*.zip
+          overwrite: true
+          file_glob: true
+      # 6. Upload the 2.0 (plain-named) packages LAST, so it's the
+      #    most recently added asset -- this is what getgrav.org's
+      #    indexer appears to pick up automatically, making 2.0 the
+      #    default download.
+      - name: Upload 2.0 packages to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ env.SKELETON_VERSION }}
+          file: dist-2/*.zip
           overwrite: true
           file_glob: true
