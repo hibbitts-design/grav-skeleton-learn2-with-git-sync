@@ -1,3 +1,9 @@
+# v1.8.0
+## 10/01/2026
+
+1. [](#improved)
+    * Remove legacy Presentation plugin configuration, Add Presentation Admin page blueprint, related custom CSS and README mention
+
 # v1.7.5
 ## 08/24/2026
 
