@@ -16,6 +16,8 @@
 <img alt="Documentation page with chapter navigation in the sidebar, an Edit this Page link, and previous and next arrows" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/refs/heads/master/screenshots/screenshot.webp" width="100%">
 </a>
 
+<p>Learn2 with Git Sync – Documentation page</p>
+
 </div>
 
 A complete, pre-configured package for an open documentation site – a place to publish guides, manuals, or course notes that others can read and help improve. Content is stored as simple Markdown files you can keep locally, with a built-in Admin panel for browser-based editing and no database required. Runs on nearly any web hosting service.
