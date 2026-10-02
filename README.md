@@ -12,11 +12,9 @@
 
 <p>A free, open-source package built on <a href="https://getgrav.org">Grav CMS</a> and the <a href="https://github.com/hibbitts-design/grav-theme-learn2-git-sync">Learn2 with Git Sync</a> theme, with Markdown file-based content, a built-in Admin panel, and no database required.</p>
 
-<a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/refs/heads/master/screenshots/screenshot.webp">
-<img alt="Documentation page with chapter navigation in the sidebar, an Edit this Page link, and previous and next arrows" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/refs/heads/master/screenshots/screenshot.webp" width="100%">
-</a>
+<a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/refs/heads/master/screenshots/screenshot.webp"><img alt="Chapter page for Basics with numbered sidebar navigation, search, and an Edit this Page link" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/refs/heads/master/screenshots/screenshot.webp" width="49%"></a> <a href="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/refs/heads/master/screenshots/screenshot-2.webp"><img alt="Documentation page with chapter navigation in the sidebar, an Edit this Page link, and previous and next arrows" src="https://raw.githubusercontent.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/refs/heads/master/screenshots/screenshot-2.webp" width="49%"></a>
 
-<p>Learn2 with Git Sync – Documentation page</p>
+<p>Learn2 with Git Sync – Chapter page (left) and documentation page (right)</p>
 
 </div>
 
