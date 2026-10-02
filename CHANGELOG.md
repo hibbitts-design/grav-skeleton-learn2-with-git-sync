@@ -5,7 +5,7 @@
     * 2026 Refresh: add Dark Mode option (Off, On, Auto (System)) to the inherited theme, default Off
 1. [](#improved)
     * Streamline Style options to 2026 Refresh and Classic
-    * Rewrite README in streamlined style with single screenshot
+    * Rewrite README in streamlined style with homepage and interior page screenshots
     * Point documentation link to the README
 
 # v1.8.0
