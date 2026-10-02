@@ -1,7 +1,10 @@
-# v1.8.1
-## XX/XX/2026
+# v1.9.0
+## 10/02/2026
 
+1. [](#new)
+    * 2026 Refresh: add Dark Mode option (Off, On, Auto (System)) to the inherited theme, default Off
 1. [](#improved)
+    * Streamline Style options to 2026 Refresh and Classic
     * Rewrite README in streamlined style with single screenshot
     * Point documentation link to the README
 
