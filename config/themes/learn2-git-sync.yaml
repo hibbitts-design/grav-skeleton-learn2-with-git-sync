@@ -8,6 +8,8 @@ github:
   tree: null
 default_taxonomy_category: docs
 style: theme-2026
+dark_mode:
+  mode: disabled
 streams:
   schemes:
     theme:

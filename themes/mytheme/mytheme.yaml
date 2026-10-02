@@ -8,6 +8,8 @@ github:
     icon:                                           # FontAwesome icon
     tree:
 default_taxonomy_category: docs
+dark_mode:
+    mode: disabled                                  # disabled | enabled | auto
 
 streams:
  schemes:

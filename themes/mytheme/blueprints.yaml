@@ -13,6 +13,31 @@ form:
   validation: loose
   fields:
 
+    visualstyle:
+      type: section
+      title: 'Visual Style'
+      underline: true
+
+    style:
+      type: select
+      size: medium
+      label: Style
+      default: default
+      options:
+        default: Classic
+        theme-2026: 2026 Refresh
+
+    dark_mode.mode:
+      type: select
+      label: 'Dark Mode'
+      help: 'Off: never. On: always. Auto (System): follows visitor OS preference.'
+      size: medium
+      default: disabled
+      options:
+        disabled: 'Off'
+        enabled: 'On'
+        auto: 'Auto (System)'
+
     gitsyncoptions:
       type: section
       title: 'Git Sync Link Options'
@@ -70,19 +95,6 @@ form:
             0: 'No'
         validate:
             type: bool
-
-    style:
-      type: select
-      size: medium
-      label: Style
-      description: Custom style selection.
-      default: default
-      options:
-        default: Classic
-        theme-2026: 2026 Refresh
-        hoth: Hoth
-        longyearbyen: Longyearbyen
-        spitsbergen: Spitsbergen (Hoth v2)
 
     top_level_version:
         type: toggle

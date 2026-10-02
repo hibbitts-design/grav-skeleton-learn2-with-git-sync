@@ -28,7 +28,7 @@ A complete, pre-configured package for an open documentation site – a place to
 - **Made for reading documentation** – chapters with numbered sidebar navigation, previous and next page arrows, and reading history
 - **Search included** – instant search, plus tag-aware full-text search with the included TNTSearch plugin
 - **Stay up to date** – Atom/RSS feeds so readers can follow documentation changes
-- **Selectable visual styles** – 2026 Refresh, Classic, Hoth, Longyearbyen, or Spitsbergen
+- **Visual styles** – 2026 Refresh or Classic, with Dark Mode off, on, or following the visitor's system setting
 - **Portable by design** – your content is plain Markdown files on your server, ready to move to any tool or host if your needs change
 
 ## When is Grav Learn2 with Git Sync a Good Candidate?
@@ -70,7 +70,7 @@ Learn2 with Git Sync is best suited for authors and educators comfortable with w
 - **Chapters and pages** – each chapter (Basics, Intermediate, Advanced) is a top-level folder using the Chapter page type, with its pages inside using the Docs page type. Folder numbers set the order in the sidebar; add pages with **Pages → Add**
 - **Previous and next arrows** – pages in the `docs` category are linked in order; the theme's Default Taxonomy Category option adds it to new pages automatically
 - **Search** – instant search works out of the box; for full-text search, build the TNTSearch index from the Admin Panel after adding content
-- **Look and options** – under **Themes → My Theme**: visual style, Git link position, document versioning, and home URL (see the [Learn2 with Git Sync theme README](https://github.com/hibbitts-design/grav-theme-learn2-git-sync#theme-options) for all options)
+- **Look and options** – under **Themes → My Theme**: visual style and Dark Mode, Git link position, document versioning, and home URL (see the [Learn2 with Git Sync theme README](https://github.com/hibbitts-design/grav-theme-learn2-git-sync#theme-options) for all options)
 - **Git Sync and "Edit this Page"** – set up the Git Sync plugin in the Admin Panel; the "Edit this Page" link then points to each page's source automatically
 
 ## Requirements
