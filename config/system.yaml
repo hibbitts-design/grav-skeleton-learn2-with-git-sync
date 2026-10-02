@@ -144,8 +144,6 @@ assets:
   js_minify: true
   enable_asset_timestamp: false
   enable_asset_sri: false
-  collections:
-    jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
   display: 0
   log: true
