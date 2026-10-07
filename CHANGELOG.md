@@ -1,8 +1,9 @@
 # v1.9.1
-## XX/XX/2026
+## 10/07/2026
 
 1. [](#improved)
     * Use Grav's default jQuery 3
+    * Updated screenshot
 
 # v1.9.0
 ## 10/02/2026
