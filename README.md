@@ -69,7 +69,7 @@ Learn2 with Git Sync is best suited for authors and educators comfortable with w
 - **Previous and next arrows** – pages in the `docs` category are linked in order; the theme's Default Taxonomy Category option adds it to new pages automatically
 - **Search** – instant search works out of the box; for full-text search, build the TNTSearch index from the Admin Panel after adding content
 - **Look and options** – under **Themes → My Theme**: visual style and Dark Mode, Git link position, document versioning, and home URL (see the [Learn2 with Git Sync theme README](https://github.com/hibbitts-design/grav-theme-learn2-git-sync#theme-options) for all options)
-- **Git Sync and "Edit this Page"** – set up the Git Sync plugin in the Admin Panel; the "Edit this Page" link then points to each page's source automatically
+- **Git Sync and "Edit this Page"** – set up Git Sync in the Admin Panel (its own menu item in Grav 2, or Plugins → Git Sync in Grav 1.7); the "Edit this Page" link then points to each page's source automatically
 
 ## Requirements
 
