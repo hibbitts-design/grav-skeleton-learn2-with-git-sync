@@ -1,3 +1,10 @@
+# v1.9.2
+## 10/09/2026
+
+1. [](#improved)
+    * README: where to set up Git Sync in the Admin Panel (its own menu item in Grav 2, or Plugins → Git Sync in Grav 1.7)
+    * Update to Learn2 Git Sync 2.3.2
+
 # v1.9.1
 ## 10/07/2026
 
