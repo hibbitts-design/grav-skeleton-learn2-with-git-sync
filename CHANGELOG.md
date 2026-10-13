@@ -1,3 +1,11 @@
+# v1.9.3
+## XX/XX/2026
+
+1. [](#bugfix)
+    * My Theme: the Git Link Position option's Off choice shows its label in Admin on hosts with PHP's native YAML extension, and the Custom Git Link Font Awesome Icon field shows as a normal text box in Admin 2
+1. [](#improved)
+    * Update to Learn2 Git Sync 2.3.3
+
 # v1.9.2
 ## 10/09/2026
 
