@@ -51,10 +51,10 @@ form:
         options:
             top: Top
             bottom: Bottom
-            off: Off
+            'off': 'Off'
 
     github.icon:
-        type: input.text
+        type: text
         size: small
         label: Custom Git Link Font Awesome Icon
         description: Icon short name.
