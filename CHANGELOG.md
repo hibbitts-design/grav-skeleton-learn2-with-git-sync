@@ -1,3 +1,9 @@
+# v1.9.4
+## 10/XX/2026
+
+1. [](#improved)
+    * Grav's cache is on by default, so pages load faster; Grav still notices edited pages straight away (existing sites can turn it on in Configuration → System → Caching)
+
 # v1.9.3
 ## 10/13/2026
 
