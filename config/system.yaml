@@ -100,7 +100,7 @@ pages:
       - forms
   markdown_extra: true
 cache:
-  enabled: false
+  enabled: true
   check:
     method: file
   driver: auto
