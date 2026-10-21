@@ -64,12 +64,39 @@ Learn2 with Git Sync is best suited for authors and educators comfortable with w
 
 ## Site Setup
 
-- **Site name** – in the Admin Panel under **Configuration → Site**; it appears at the top of the sidebar
-- **Chapters and pages** – each chapter (Basics, Intermediate, Advanced) is a top-level folder using the Chapter page type, with its pages inside using the Docs page type. Folder numbers set the order in the sidebar; add pages with **Pages → Add**
-- **Previous and next arrows** – pages in the `docs` category are linked in order; the theme's Default Taxonomy Category option adds it to new pages automatically
-- **Search** – instant search works out of the box; for full-text search, build the TNTSearch index from the Admin Panel after adding content
-- **Look and options** – under **Themes → My Theme**: visual style and Dark Mode, Git link position, document versioning, and home URL (see the [Learn2 with Git Sync theme README](https://github.com/hibbitts-design/grav-theme-learn2-git-sync#theme-options) for all options)
-- **Git Sync and "Edit this Page"** – set up Git Sync in the Admin Panel (its own menu item in Grav 2, or Plugins → Git Sync in Grav 1.7); the "Edit this Page" link then points to each page's source automatically
+Everything below is done in the Admin Panel, or by editing the files in `user/pages` if you prefer. Folder names such as `01.basics` start with a number that sets their order in the sidebar.
+
+### Site Name and Home Page
+
+1. Open **Configuration → Site** and set **Site Title**; it appears at the top of the sidebar
+2. The first chapter, Basics, is the homepage; to use another page, change **Home Page** in **Configuration → System**
+
+### Chapters and Pages
+
+Each chapter (Basics, Intermediate, Advanced) is a top-level folder using the **Chapter** page type, with its pages inside using the **Docs** page type.
+
+To add a page:
+
+1. In **Pages**, add a page inside a chapter, with the **Docs** page type
+2. Keep it in the `docs` category, so the previous and next arrows include it (the theme's **Default Taxonomy Category** option adds it to new pages automatically)
+
+### Theme Options
+
+Under **Themes → My Theme** (see the [Learn2 with Git Sync theme README](https://github.com/hibbitts-design/grav-theme-learn2-git-sync#theme-options) for every option):
+
+- **Look** – Style (2026 Refresh or Classic) and Dark Mode (off, on, or following the visitor's system)
+- **Git link** – Git Link Position, a custom icon, and a custom Git repository tree URL
+- **Versions** – Document Versioning and Top Level Version, for documentation with more than one version
+- **More** – Hide Site Title, Home URL, and Default Taxonomy Category
+
+### Git Sync and "Edit this Page"
+
+1. Set up Git Sync in the Admin Panel (its own menu item in Grav 2, or **Plugins → Git Sync** in Grav 1.7), with a repository on GitHub, GitLab, Bitbucket or your own server
+2. The "Edit this Page" link then points to each page's source automatically; choose where it appears with **Git Link Position** under **Themes → My Theme**
+
+### Search and Feeds
+
+Instant search works out of the box. For tag-aware full-text search, build the TNTSearch index from the Admin Panel after adding content. Readers can also follow changes to the documentation with the site's RSS feed, at your site's address with `/feed.rss` added.
 
 ## Requirements
 
@@ -78,14 +105,15 @@ Learn2 with Git Sync is best suited for authors and educators comfortable with w
 
 ## Support
 
-### Contact and Support
+**Contact and Support**
+
 - Share your feedback in the [Learn2 with Git Sync Survey](https://docs.google.com/forms/d/e/1FAIpQLSdOAQL_4m56zIvmTQMszTtS6U3pVQ0nZlaxnZfPspEy-i6eOg/viewform)
 - Follow [@hibbittsdesign@mastodon.social](https://mastodon.social/@hibbittsdesign) on Mastodon for updates
 - 👩🏻‍💻🧑🏻‍💻 Join the [Grav Discord](https://chat.getgrav.org) and often find me there
 - Add a ⭐️ [star on GitHub](https://github.com/hibbitts-design/grav-skeleton-learn2-with-git-sync) to the Learn2 with Git Sync project repository
 - For bugs or feature requests, [open an issue](https://github.com/hibbitts-design/grav-skeleton-learn2-with-git-sync/issues) on GitHub
 
-### Professional Services
+**Professional Services**
 
 By leveraging his extensive UX design expertise and systems-oriented approach, Paul helps teams and individuals utilize open content in education and publication settings. Professional services include user experience and workflow consulting, premium support subscriptions, workshops, and custom development. Interested? Send a note to [paul@hibbittsdesign.org](mailto:paul@hibbittsdesign.org).
 
