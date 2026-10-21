@@ -3,6 +3,7 @@
 
 1. [](#improved)
     * Grav's cache is on by default, so pages load faster; Grav still notices edited pages straight away (existing sites can turn it on in Configuration → System → Caching)
+    * README: Site Setup in its own sections, with short how-tos, aligned with the other skeletons' READMEs
 
 # v1.9.3
 ## 10/13/2026
