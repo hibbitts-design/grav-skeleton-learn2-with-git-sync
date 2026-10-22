@@ -1,3 +1,9 @@
+# v1.9.5
+## 10/XX/2026
+
+1. [](#bugfix)
+    * The Topic 1 sample page's settings are indented with spaces instead of a tab, so they read correctly even without Grav's YAML compatibility setting
+
 # v1.9.4
 ## 10/22/2026
 
