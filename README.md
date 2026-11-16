@@ -18,6 +18,9 @@
 
 </div>
 
+> [!NOTE]
+> **Soon in maintenance mode:** Grav Learn2 with Git Sync will soon be in maintenance mode – bug fixes will continue, but no new features are planned. For new documentation sites, see [Helios](https://getgrav.org/premium/helios), the Grav team's modern documentation theme – a paid Grav Premium theme with a ready-to-run package of sample content ([demo](https://demo.getgrav.org/helios/)); its sales help fund Grav CMS development.
+
 A complete, pre-configured package for an open documentation site – a place to publish guides, manuals, or course notes that others can read and help improve. Content is stored as simple Markdown files you can keep locally, with a built-in Admin panel for browser-based editing and no database required. Runs on nearly any web hosting service.
 
 ## What Sets It Apart
